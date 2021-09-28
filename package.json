@@ -1,0 +1,54 @@
+{
+  "name": "nikon",
+  "version": "1.0.0",
+  "description": "My tools",
+  "private": "true",
+  "scripts": {
+    "clean": "pnpm run clean:lib && pnpm run clean -r --stream",
+    "clean:lib": "rimraf dist",
+    "build": "gulp -f build/gulpfile.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikon5070/nikon.git"
+  },
+  "author": "nikon5070@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikon5070/nikon/issues"
+  },
+  "homepage": "https://github.com/Nikon5070/nikon#readme",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^20.0.0",
+    "@rollup/plugin-node-resolve": "^13.0.5",
+    "@types/gulp": "^4.0.9",
+    "gulp": "^4.0.2",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "rollup": "^2.57.0",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-esbuild": "^4.5.0",
+    "rollup-plugin-filesize": "^9.1.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "^6.0.0",
+    "typescript": "^4.4.3",
+    "vue": "^2.6.14",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "files": [
+    "lib",
+    "es",
+    "packages"
+  ],
+  "main": "lib/index.js",
+  "module": "es/index.js",
+  "typings": "lib/index.d.ts",
+  "unpkg": "lib/index.js",
+  "style": "lib/theme-chalk/index.css"
+}

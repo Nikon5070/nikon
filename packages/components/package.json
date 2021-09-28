@@ -1,0 +1,14 @@
+{
+  "name": "@nikon/components",
+  "version": "0.0.1",
+  "description": "all components are settled here",
+  "peerDependencies": {
+    "vue": "^2.6.14"
+  },
+  "main": "index.ts",
+  "module": "index.ts",
+  "types": "index.d.ts",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "sideEffects": false
+}
