@@ -19,7 +19,8 @@ export default class CText extends Vue {
 }
 </script>
 
-<style lang="stylus" scoped>
-.c-text
-  background red
-</style>
+<!--<style>-->
+<!--.c-text {-->
+<!--  background: red-->
+<!--}-->
+<!--</style>-->

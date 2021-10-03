@@ -126,8 +126,10 @@ function copyTypes() {
 export const buildComponents = series(
   init,
   // parallel(genComponentTypes, buildEachComponent, buildComponentEntry),
-  parallel(buildEachComponent, buildComponentEntry),
-  copyTypes()
+  // parallel(buildEachComponent, buildComponentEntry),
+  parallel(buildEachComponent),
+  // copyTypes()
 )
 // export { genComponentTypes, buildEachComponent, buildComponentEntry }
-export { buildEachComponent, buildComponentEntry }
+// export { buildEachComponent, buildComponentEntry }
+export { buildEachComponent }

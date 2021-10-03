@@ -7,14 +7,14 @@ export const themeRoot = resolve(pkgRoot, 'theme-chalk')
 export const hookRoot = resolve(pkgRoot, 'hooks')
 export const localeRoot = resolve(pkgRoot, 'locale')
 export const directiveRoot = resolve(pkgRoot, 'directives')
-export const epRoot = resolve(pkgRoot, 'element-plus')
+export const epRoot = resolve(pkgRoot, 'nikon')
 export const utilRoot = resolve(pkgRoot, 'utils')
 export const docRoot = resolve(projRoot, 'docs')
 
 /** dist */
 export const buildOutput = resolve(projRoot, 'dist')
-/** dist/element-plus */
-export const epOutput = resolve(buildOutput, 'element-plus')
+/** dist/nikon */
+export const epOutput = resolve(buildOutput, 'nikon')
 
 export const projPackage = resolve(projRoot, 'package.json')
 export const compPackage = resolve(compRoot, 'package.json')

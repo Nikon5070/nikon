@@ -24,21 +24,8 @@ export default series(
 
   parallel(
     runTask('buildComponents'),
-    // runTask('buildStyle'),
-    // runTask('buildFullBundle'),
-    // runTask('buildHelper'),
-    // withTaskName('buildEachPackages', () =>
-    //   run('pnpm run --filter ./packages --parallel --stream build')
-    // )
-  ),
-  //
-  // parallel(
-  //   copyStyle(),
-  //   copyFullStyle,
-  //   copyEntryTypes(),
-  //   copySourceCode(),
-  //   copyREADME()
-  // )
+  )
+
 )
 
 export * from './components'

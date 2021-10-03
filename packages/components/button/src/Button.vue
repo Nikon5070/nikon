@@ -13,7 +13,8 @@ import { Vue, Component } from 'vue-property-decorator'
 export default class CButton extends Vue {}
 </script>
 
-<style lang="stylus" scoped>
-.c-button
-  background #000
-</style>
+<!--<style>-->
+<!--.c-button {-->
+<!--  background: #000-->
+<!--}-->
+<!--</style>-->
