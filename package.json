@@ -22,9 +22,6 @@
     "url": "https://github.com/Nikon5070/nikon/issues"
   },
   "homepage": "https://github.com/Nikon5070/nikon#readme",
-  "dependencies": {
-    "lerna": "^4.0.0"
-  },
   "devDependencies": {
     "@rollup/plugin-alias": "^3.1.5",
     "@rollup/plugin-commonjs": "^20.0.0",

@@ -8,6 +8,7 @@ describe('SSR', () => {
       process.env.VUE_ENV = 'server'
       require('../index')
     } catch (e) {
+      // @ts-ignore
       throw Error(e)
     }
     expect('pass').toBe('pass')
