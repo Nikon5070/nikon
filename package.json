@@ -1,6 +1,5 @@
 {
-  "private": "true",
-  "packageManager": "pnpm@6.15.1",
+  "packageManager": "yarn@3.0.2",
   "workspaces": [
     "packages/*"
   ],
