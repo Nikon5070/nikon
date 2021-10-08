@@ -4,10 +4,10 @@
     "packages/*"
   ],
   "engines": {
-    "node": ">= 16"
+    "node": ">= 14"
   },
   "scripts": {
-    "clean": "pnpm run clean:lib",
+    "clean": "yarn run clean:lib",
     "clean:lib": "rimraf dist",
     "build": "gulp -f build/gulpfile.ts"
   },
@@ -80,10 +80,5 @@
     "vue-jest": "5.0.0-alpha.5",
     "vue-property-decorator": "^9.1.2",
     "vue-tsc": "^0.3.0"
-  },
-  "files": [
-    "lib",
-    "es",
-    "packages"
-  ]
+  }
 }
