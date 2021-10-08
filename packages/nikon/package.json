@@ -23,7 +23,7 @@
     "vue": "^2.6.14"
   },
   "dependencies": {
-    "@nikon/components": "workspace:packages/components",
+    "@nikon5070/components": "workspace:packages/components",
     "@popperjs/core": "^2.10.1",
     "@vueuse/core": "~6.1.0",
     "async-validator": "^4.0.3",

@@ -1045,17 +1045,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nikon/components@workspace:packages/components":
+"@nikon5070/components@workspace:packages/components":
   version: 0.0.0-use.local
-  resolution: "@nikon/components@workspace:packages/components"
+  resolution: "@nikon5070/components@workspace:packages/components"
   peerDependencies:
     vue: ^2.6.14
   languageName: unknown
   linkType: soft
 
-"@nikon/vite-project@workspace:packages/vite-project":
+"@nikon5070/vite-project@workspace:packages/vite-project":
   version: 0.0.0-use.local
-  resolution: "@nikon/vite-project@workspace:packages/vite-project"
+  resolution: "@nikon5070/vite-project@workspace:packages/vite-project"
   dependencies:
     "@vitejs/plugin-vue": ^1.9.3
     typescript: ^4.4.3
@@ -8582,7 +8582,7 @@ fsevents@^1.2.7:
   version: 0.0.0-use.local
   resolution: "nikon@workspace:packages/nikon"
   dependencies:
-    "@nikon/components": "workspace:packages/components"
+    "@nikon5070/components": "workspace:packages/components"
     "@popperjs/core": ^2.10.1
     "@vueuse/core": ~6.1.0
     async-validator: ^4.0.3
